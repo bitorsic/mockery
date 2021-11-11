@@ -9,10 +9,10 @@ def even(num):
 
 while count != len(normal):
 	if even(count):
-		uppers = normal[count].upper()
+		uppers = normal[count].lower()
 		list.append(uppers)
 	else:
-		lowers = normal[count].lower()
+		lowers = normal[count].upper()
 		list.append(lowers)
 	count += 1
 
